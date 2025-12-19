@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "They are cast or forged to form:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "H near the small end",
+        "b": "I near the small end",
+        "c": "H near the big end",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Connecting rods are generally forged to form an H-section near the small end for strength.",
+        "b": "I-section is not formed near the small end.",
+        "c": "H-section is not specifically formed near the big end.",
+        "d": "A correct structural form is mentioned."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which shape provides greater strength to resist stresses than a solid rod of the same mass?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "H near the small end and an I near the big end",
+        "b": "I near the small end and an H near the big end",
+        "c": "All of these",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This combination provides high strength and stiffness with reduced weight.",
+        "b": "This arrangement is not commonly used.",
+        "c": "Only one option correctly describes the design.",
+        "d": "A correct option exists."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Failure of a connecting rod is commonly called:",
+      "answers": {
+        "a": "Throwing a rod",
+        "b": "Flowing of rod",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Failure of a connecting rod is commonly referred to as throwing a rod.",
+        "b": "Flowing of rod is not a recognized term.",
+        "c": "Only one term is correct.",
+        "d": "A correct option is present."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The grain pattern of the body or neck of the connecting rod is in:",
+      "answers": {
+        "a": "The vertical direction",
+        "b": "Horizontal direction",
+        "c": "Inclined at 45°",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "The body or neck of the connecting rod is manufactured with vertical grain flow for strength.",
+        "b": "Horizontal grain flow is used for the cap.",
+        "c": "Inclined grain flow is not used.",
+        "d": "A correct option exists."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The grain pattern of the connecting rod cap is made in:",
+      "answers": {
+        "a": "Horizontal direction",
+        "b": "The vertical direction",
+        "c": "Inclined at 45°",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "The cap is manufactured with horizontal grain flow to maintain roundness under high stress.",
+        "b": "Vertical grain flow is used in the rod body, not the cap.",
+        "c": "Inclined grain flow is not used.",
+        "d": "A correct option exists."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
