@@ -4,86 +4,86 @@
     {
       "question": "Piston pin is also known as:",
       "answers": {
-        "a": "Gudgeon pin",
-        "b": "Crank pin",
-        "c": "Connecting pin",
-        "d": "Fastening pin"
+        "a": "Crank pin",
+        "b": "Gudgeon pin",
+        "c": "Fastening pin",
+        "d": "Connecting pin"
       },
       "explanations": {
-        "a": "The piston pin is commonly called the gudgeon pin and it connects the piston to the connecting rod.",
-        "b": "Crank pin connects the connecting rod to the crankshaft, not the piston.",
-        "c": "Connecting pin is not a standard term used in engines.",
-        "d": "Fastening pin is a general term, not specific to piston connection."
+        "a": "Crank pin connects the connecting rod to the crankshaft.",
+        "b": "The piston pin is commonly known as the gudgeon pin.",
+        "c": "Fastening pin is a general term and not specific.",
+        "d": "Connecting pin is not a standard engine term."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
       "question": "The small end of the connecting rod attaches to:",
       "answers": {
-        "a": "The piston pin, gudgeon pin or wrist pin",
-        "b": "Crank pin",
-        "c": "Connecting pin",
-        "d": "Fastening pin"
+        "a": "Crank pin",
+        "b": "Fastening pin",
+        "c": "The piston pin, gudgeon pin or wrist pin",
+        "d": "Connecting pin"
       },
       "explanations": {
-        "a": "The small end is connected to the piston through the piston pin (gudgeon/wrist pin).",
-        "b": "Crank pin is connected to the big end of the rod.",
-        "c": "Connecting pin is not used in this context.",
-        "d": "Fastening pin does not connect the piston and rod."
+        "a": "Crank pin is connected to the big end.",
+        "b": "Fastening pin is incorrect.",
+        "c": "The small end is connected to the piston through the piston (gudgeon/wrist) pin.",
+        "d": "Connecting pin is not used here."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
       "question": "The big end of the connecting rod connects to the:",
       "answers": {
-        "a": "Bearing journal on the crank throw",
-        "b": "Floating wrist pin",
-        "c": "Connecting rod bolts",
-        "d": "None of these"
+        "a": "Floating wrist pin",
+        "b": "Connecting rod bolts",
+        "c": "None of these",
+        "d": "Bearing journal on the crank throw"
       },
       "explanations": {
-        "a": "The big end is connected to the crankshaft through the bearing journal on the crank throw.",
-        "b": "Wrist pin is connected to the small end.",
-        "c": "Rod bolts hold the cap but are not the connection point.",
-        "d": "One correct option is present."
+        "a": "Wrist pin is connected to the small end.",
+        "b": "Rod bolts hold the cap only.",
+        "c": "A correct option exists.",
+        "d": "The big end connects to the crankshaft at the bearing journal."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
       "question": "Connecting rods for internal combustion engines need to be:",
       "answers": {
-        "a": "Light weight",
-        "b": "Heavy weight",
-        "c": "Medium weight",
+        "a": "Heavy weight",
+        "b": "Medium weight",
+        "c": "Light weight",
         "d": "None of these"
       },
       "explanations": {
-        "a": "Connecting rods should be light to reduce inertia forces while being strong.",
-        "b": "Heavy rods increase stress and reduce efficiency.",
-        "c": "Medium weight is not a design requirement.",
+        "a": "Heavy rods increase inertia forces.",
+        "b": "Medium weight is not a design requirement.",
+        "c": "Connecting rods must be light to reduce inertia and improve efficiency.",
         "d": "A correct option exists."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
       "question": "Popular materials used in the construction of connecting rods are:",
       "answers": {
-        "a": "Titanium",
-        "b": "Aluminium",
-        "c": "Both (a) and (b)",
-        "d": "None of these"
+        "a": "Copper and Brass",
+        "b": "Plastic and Rubber",
+        "c": "Wood and Fiber",
+        "d": "Titanium and Aluminium"
       },
       "explanations": {
-        "a": "Titanium is used in high-performance engines.",
-        "b": "Aluminium is used for light-weight applications.",
-        "c": "Both titanium and aluminium are popular materials for connecting rods.",
-        "d": "There are suitable materials listed."
+        "a": "Copper and brass are not suitable for connecting rods.",
+        "b": "Plastic and rubber cannot withstand engine stresses.",
+        "c": "Wood and fiber are unsuitable materials.",
+        "d": "Titanium and aluminium are commonly used due to their high strength-to-weight ratio."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
