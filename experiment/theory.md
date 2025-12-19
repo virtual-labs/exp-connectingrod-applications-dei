@@ -4,8 +4,7 @@ In a reciprocating piston engine, The connecting rod connects the piston to the 
 They are cast or forged to form an H near the small end and an I near the big end. This shape provides greater strength to resist the stresses than a solid rod of the same mass. To maintain engine balance, all the connecting rods in an engine are a matched set.
 
 <p align="center">
-  ![image alt](https://github.com/virtual-labs/exp-connectingrod-applications-dei/blob/3a9fbb704a652702cee81b8dc8f380b27e855650/experiment/ConnectingRod.jpg)" alt="Connecting Rod" width="400">
+  <img src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/3a9fbb704a652702cee81b8dc8f380b27e855650/experiment/ConnectingRod.jpg" alt="Connecting Rod" width="500">
   <br>
-  <em><b>Figure: Connecting Rod</b></em>
+  <b>Figure: Connecting Rod</b>
 </p>
-![image alt](https://github.com/virtual-labs/exp-connectingrod-applications-dei/blob/3a9fbb704a652702cee81b8dc8f380b27e855650/experiment/ConnectingRod.jpg)
