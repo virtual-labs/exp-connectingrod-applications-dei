@@ -12,6 +12,7 @@ They are cast or forged to form an **H-section near the small end** and an **I-s
   <b>Figure: Connecting Rod</b>
 </div>
 
+
 The connecting rod carries the engine motive energy directly to the crank, attaining high-level performance. Connecting rods must be light in weight and yet strong enough to transmit the thrust of the pistons to the crankshaft. They are generally drop forged from steel alloys capable of withstanding heavy loads without bending or twisting. Holes at the upper and lower ends are machined accurately to permit proper fitting of bearings, and these holes must be perfectly parallel.
 
 ### **Design**
