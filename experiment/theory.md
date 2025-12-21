@@ -4,9 +4,13 @@ In a reciprocating piston engine, the connecting rod connects the piston to the 
 A connecting rod is rigid; it may transmit either a push or a pull and hence can rotate the crank through both halves of a revolution, i.e., piston pushing and piston pulling. In a few two-stroke engines, the connecting rod is only required to push.
 They are cast or forged to form an **H-section near the small end** and an **I-section near the big end**. This shape provides greater strength to resist stresses than a solid rod of the same mass. To maintain engine balance, all the connecting rods in an engine are manufactured as a matched set.
 
-![Connecting Rod](https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/3a9fbb704a652702cee81b8dc8f380b27e855650/experiment/ConnectingRod.jpg)
-
-**Figure: Connecting Rod**
+<div align="center">
+  <img src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/3a9fbb704a652702cee81b8dc8f380b27e855650/experiment/ConnectingRod.jpg"
+       alt="Connecting Rod"
+       width="500">
+  <br>
+  <b>Figure: Connecting Rod</b>
+</div>
 
 The connecting rod carries the engine motive energy directly to the crank, attaining high-level performance. Connecting rods must be light in weight and yet strong enough to transmit the thrust of the pistons to the crankshaft. They are generally drop forged from steel alloys capable of withstanding heavy loads without bending or twisting. Holes at the upper and lower ends are machined accurately to permit proper fitting of bearings, and these holes must be perfectly parallel.
 
