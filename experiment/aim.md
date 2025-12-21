@@ -1,1 +1,1 @@
-### To study the construction, design features, materials, and working of a connecting rod in an internal combustion engine, and to understand its role in transmitting piston thrust and converting reciprocating motion into rotary motion.
+**To study the construction, design features, materials, and working of a connecting rod in an internal combustion engine, and to understand its role in transmitting piston thrust and converting reciprocating motion into rotary motion.**
