@@ -9,12 +9,6 @@
         "c": "Fastening pin",
         "d": "Connecting pin"
       },
-      "explanations": {
-        "a": "Crank pin connects the connecting rod to the crankshaft.",
-        "b": "The piston pin is commonly known as the gudgeon pin.",
-        "c": "Fastening pin is a general term and not specific.",
-        "d": "Connecting pin is not a standard engine term."
-      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -25,12 +19,6 @@
         "b": "Fastening pin",
         "c": "The piston pin, gudgeon pin or wrist pin",
         "d": "Connecting pin"
-      },
-      "explanations": {
-        "a": "Crank pin is connected to the big end.",
-        "b": "Fastening pin is incorrect.",
-        "c": "The small end is connected to the piston through the piston (gudgeon/wrist) pin.",
-        "d": "Connecting pin is not used here."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -43,12 +31,6 @@
         "c": "None of these",
         "d": "Bearing journal on the crank throw"
       },
-      "explanations": {
-        "a": "Wrist pin is connected to the small end.",
-        "b": "Rod bolts hold the cap only.",
-        "c": "A correct option exists.",
-        "d": "The big end connects to the crankshaft at the bearing journal."
-      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -60,12 +42,6 @@
         "c": "Light weight",
         "d": "None of these"
       },
-      "explanations": {
-        "a": "Heavy rods increase inertia forces.",
-        "b": "Medium weight is not a design requirement.",
-        "c": "Connecting rods must be light to reduce inertia and improve efficiency.",
-        "d": "A correct option exists."
-      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -76,12 +52,6 @@
         "b": "Plastic and Rubber",
         "c": "Wood and Fiber",
         "d": "Titanium and Aluminium"
-      },
-      "explanations": {
-        "a": "Copper and brass are not suitable for connecting rods.",
-        "b": "Plastic and rubber cannot withstand engine stresses.",
-        "c": "Wood and fiber are unsuitable materials.",
-        "d": "Titanium and aluminium are commonly used due to their high strength-to-weight ratio."
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
