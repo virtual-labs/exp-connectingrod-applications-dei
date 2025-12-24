@@ -48,10 +48,10 @@
     {
       "question": "Popular materials used in the construction of connecting rods are:",
       "answers": {
-        "a": "Copper and Brass",
-        "b": "Plastic and Rubber",
-        "c": "Wood and Fiber",
-        "d": "Titanium and Aluminium"
+        "a": "Titanium",
+        "b": "Aluminium",
+        "c": "Both (a) and (b)",
+        "d": "None of the above"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
