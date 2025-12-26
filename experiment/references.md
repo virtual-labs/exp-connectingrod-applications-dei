@@ -1,6 +1,6 @@
 # References
 
-1. ASM Handbook, Ninth Edition, "Forming and Forging", Volume 14, 1988.
-2. Serope Kalpakjian and Steven Schmid, "Manufacturing Engineering and Technology", Pearson Education, 2009.
-3. Taylan Altan, Gracious Ngaile, Gangshu Shen, "Cold and hot forging: fundamentals and applications", Volume 1, ASM International, 2004.
-4. FORGE: User Manual, Transvalor Inc., Sophia Antipolis, France.
+1. Lange, K., "Handbook of Metal Forming", McGraw-Hill, 1985.
+2. Shiro Kobayashi, Soo-Ik Oh, Taylan Altan, "Metal Forming and the Finite Element Method", Oxford University Press, USA, 1989.
+3. Amitabha Ghosh and A. K. Mallik, "Manufacturing Science", Affiliated East-West Press, 2009.
+4. Taylan Altan, Gracious Ngaile, Gangshu Shen, "Cold and hot forging: fundamentals and applications", Volume 1, ASM International, 2004.
