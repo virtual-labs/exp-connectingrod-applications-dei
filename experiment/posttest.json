@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "They are cast or forged to form:",
+      "question": "1. They are cast or forged to form:",
       "answers": {
         "a": "H near the small end",
         "b": "H near the big end",
@@ -19,7 +19,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "Which shape provides greater strength to resist stresses than a solid rod of the same mass?",
+      "question": "2. Which shape provides greater strength to resist stresses than a solid rod of the same mass?",
       "answers": {
         "a": "I near the small end and an H near the big end",
         "b": "H near the small end and an I near the big end",
@@ -36,7 +36,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "Failure of a connecting rod is commonly called:",
+      "question": "3. Failure of a connecting rod is commonly called:",
       "answers": {
         "a": "Flowing of rod",
         "b": "Both (a) and (b)",
@@ -53,7 +53,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "The grain pattern of the body or neck of the connecting rod is in:",
+      "question": "4. The grain pattern of the body or neck of the connecting rod is in:",
       "answers": {
         "a": "Horizontal direction",
         "b": "Inclined at 45°",
@@ -70,7 +70,7 @@
       "difficulty": "advanced"
     },
     {
-      "question": "The grain pattern of the connecting rod cap is made in:",
+      "question": "5. The grain pattern of the connecting rod cap is made in:",
       "answers": {
         "a": "The vertical direction",
         "b": "Inclined at 45°",
