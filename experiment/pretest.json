@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Piston pin is also known as:",
+      "question": "1. Piston pin is also known as:",
       "answers": {
         "a": "Crank pin",
         "b": "Gudgeon pin",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The small end of the connecting rod attaches to:",
+      "question": "2. The small end of the connecting rod attaches to:",
       "answers": {
         "a": "Crank pin",
         "b": "Fastening pin",
@@ -24,7 +24,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The big end of the connecting rod connects to the:",
+      "question": "3. The big end of the connecting rod connects to the:",
       "answers": {
         "a": "Floating wrist pin",
         "b": "Connecting rod bolts",
@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Connecting rods for internal combustion engines need to be:",
+      "question": "4. Connecting rods for internal combustion engines need to be:",
       "answers": {
         "a": "Heavy weight",
         "b": "Medium weight",
@@ -46,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Popular materials used in the construction of connecting rods are:",
+      "question": "5. Popular materials used in the construction of connecting rods are:",
       "answers": {
         "a": "Titanium",
         "b": "Aluminium",
