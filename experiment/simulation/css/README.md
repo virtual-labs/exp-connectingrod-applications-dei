@@ -3,18 +3,20 @@
 This directory contains the interactive simulation module for the **Connecting Rod Forming Process**.
 
 ### Overview
-The simulation allows users to study the hot forging of manganese alloy steel maintained at 1250°C. It highlights material deformation, plastic flow, and equivalent strain distribution using a multi-step interactive interface.
+The simulation allows users to study the two-step hot forging of manganese alloy steel maintained at 1250°C. It highlights material deformation, plastic flow into closed impression dies, and equivalent strain distribution.
 
 ### Folder Structure
-* **index.html**: The main simulation page featuring vertical navigation buttons with "Call to Action" prompts to enhance user engagement.
-* **css/main.css**: Stylesheet providing the layout for the vertical button stack, modern rounded UI elements, and the video section animations.
-* **Simulation Videos**: Contains the four MP4 files demonstrating Setup and Strain analysis for Parts 1 and 2.
+* **index.html**: The main simulation page featuring technical "Call to Action" prompts and a vertical navigation layout.
+* **css/main.css**: Stylesheet providing the layout for the vertical button stack and modern UI elements.
+* **Simulation Videos**: Contains the four MP4 files: Simulation Setup 1, Step 1 with Strain, Simulation Setup 2, and Step 2 with Strain.
+
+### Technical Summary
+1. **Billet compression**: A manganese alloy steel billet is compressed by a hydraulic press.
+2. **Temperature Control**: The process is maintained at 1250°C to allow for plastic deformation.
+3. **Die Impressions**: Material moves into the upper and lower die impressions to form the semi-finished connecting rod.
+4. **Post-Processing**: Final strength and fatigue resistance are achieved after machining and heat treatment.
 
 ### Interactive Features
-1. **Vertical Button Navigation**: Replaces the horizontal layout to improve mobile and desktop scannability.
-2. **Dynamic Visibility**: Only the selected simulation and its corresponding description are visible at one time to prevent visual clutter.
-3. **Engagement Prompts**: Each button is preceded by a short instruction (e.g., "Analyze the initial material deformation") to guide the user through the experiment steps.
-4. **Auto-Management**: The system automatically pauses the current video when a different simulation is selected to conserve system resources and prevent overlapping audio.
-
-### Technical Detail
-The simulations demonstrate how a hydraulic press applies high force to deform a billet into the die impressions, resulting in a semi-finished connecting rod. Final mechanical properties such as fatigue resistance and strength are achieved through post-processing grain refinement.
+- **Vertical Navigation**: Buttons are stacked vertically with descriptive instructions to improve user guidance.
+- **Dynamic Content**: Only one simulation step is visible at a time to reduce visual clutter.
+- **Auto-Stop**: Videos pause automatically when switching between steps.
