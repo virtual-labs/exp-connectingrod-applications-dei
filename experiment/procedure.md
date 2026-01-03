@@ -10,7 +10,7 @@ Begin the experiment by understanding the purpose of the connecting rod forming 
 <br>
 
 <b style="font-size: 1.2em;">2. Observation of Initial Simulation Setup – Part 1</b>
-* **Action:** Play the **“Simulation Setup – Part 1”** video.
+* **Action:** Play the **“Simulation Setup 1”** video.
 * **Observation:** Observe the initial cylindrical billet made of manganese alloy steel maintained at a temperature of 1250°C. Study the arrangement of the upper die, lower die, and billet. Note how the billet is positioned between the dies before deformation begins.
 
 
@@ -24,7 +24,7 @@ Begin the experiment by understanding the purpose of the connecting rod forming 
 <br>
 
 <b style="font-size: 1.2em;">4. Strain Analysis – Part 1</b>
-* **Action:** Play the **“Rod Strain – Part 1”** simulation.
+* **Action:** Play the **“Step 1 with Strain”** simulation.
 * **Observation:** Observe the equivalent strain distribution shown on the right-hand side of the video. 
 * **Technical Note:** Initially, strain is low, but it increases significantly as deformation progresses. Identify regions of high strain concentration, particularly near the fillets and web section of the connecting rod, indicating intense plastic flow.
 
@@ -33,13 +33,13 @@ Begin the experiment by understanding the purpose of the connecting rod forming 
 <br>
 
 <b style="font-size: 1.2em;">5. Observation of Advanced Forming – Part 2</b>
-* **Action:** Play the **“Simulation Setup – Part 2”** video.
+* **Action:** Play the **“Simulation Setup 2”** video.
 * **Observation:** Observe the continuation of the forging process under controlled parameters. Note the improved material flow into the die impressions and the formation of the final semi-finished connecting rod shape. Study how uniform deformation ensures dimensional accuracy and strength.
 
 <br>
 
 <b style="font-size: 1.2em;">6. Strain Analysis – Part 2</b>
-* **Action:** Play the **“Rod Strain – Part 2”** simulation.
+* **Action:** Play the **“Step 2 with Strain”** simulation.
 * **Observation:** Observe the variation of equivalent strain during the final stage of deformation. 
 * **Comparison:** Compare strain patterns with Part 1 and note how strain becomes more uniformly distributed, ensuring improved mechanical properties and reduced chances of failure.
 
