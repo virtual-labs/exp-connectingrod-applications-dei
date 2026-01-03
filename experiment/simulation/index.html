@@ -2,37 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Simulation Videos</title>
+    <title>Simulation Videos - Connecting Rod</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <h2>Simulation Videos</h2>
+    <h2>Connecting Rod Simulation Lab</h2>
     <hr>
 
-    <h3>Simulation Setup – Part 1</h3>
-    <video width="700" controls>
-        <source src="SimulationSetup_1.mp4" type="video/mp4">
-    </video>
-    <p><strong>Description:</strong> Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. Right hand side of video shows initial, pre formed and final billet and lower half shows the dies. The material of the billet is manganese alloy steel and maintaining temperature of billet to 1250°C the forming of connecting rod take place. The variation of equivalent strain are shown over here at right hand side of video. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Preform connecting rod is shown at the end.</p>
+    <div class="button-container">
+        <button class="play-btn" onclick="showSimulation('setup1')">▶ Play: Setup Part 1</button>
+        <button class="play-btn" onclick="showSimulation('strain1')">▶ Play: Strain Part 1</button>
+        <button class="play-btn" onclick="showSimulation('setup2')">▶ Play: Setup Part 2</button>
+        <button class="play-btn" onclick="showSimulation('strain2')">▶ Play: Strain Part 2</button>
+    </div>
 
-    <h3>Rod Strain – Part 1</h3>
-    <video width="700" controls>
-        <source src="RodStrain_1.mp4" type="video/mp4">
-    </video>
-    <p><strong>Description:</strong> Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. The material of the billet is manganese alloy steel and maintaining temperature of billet to 1250°C the forming of connecting rod take place. The variation of equivalent strain are shown over here at right hand side of video. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Preform connecting rod is shown at the end.</p>
+    <div id="setup1" class="video-section">
+        <h3>Simulation Setup – Part 1</h3>
+        <video width="700" controls>
+            <source src="SimulationSetup_1.mp4" type="video/mp4">
+        </video>
+        <p><strong>Description:</strong> Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The material of the billet is manganese alloy steel and maintaining temperature of billet to 1250°C. Hydraulic press is used to deform the billet into a semi-finished shape.</p>
+    </div>
 
-    <h3>Simulation Setup – Part 2</h3>
-    <video width="700" controls>
-        <source src="SimulationSetup_2.mp4" type="video/mp4">
-    </video>
-    <p><strong>Description:</strong> Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. Right hand side of video shows initial, pre formed and final billet and lower half shows the dies. Considering various parameters and maintaining temperature of billet to 1250°C the forming of connecting rod take place. The material of the billet is manganese alloy steel. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Final connecting rod is shown at the end.</p>
+    <div id="strain1" class="video-section">
+        <h3>Rod Strain – Part 1</h3>
+        <video width="700" controls>
+            <source src="RodStrain_1.mp4" type="video/mp4">
+        </video>
+        <p><strong>Description:</strong> This simulation displays the variation of equivalent strain during the initial forming phase. High deforming force and temperature cause the material to flow plastically into the die impressions.</p>
+    </div>
 
-    <h3>Rod Strain – Part 2</h3>
-    <video width="700" controls>
-        <source src="RodStrain_2.mp4" type="video/mp4">
-    </video>
-    <p><strong>Description:</strong> Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. Considering various parameters and maintaining temperature of billet to 1250°C the forming of connecting rod take place. The variation of equivalent strain are shown over here at right hand side of video. The material of the billet is manganese alloy steel. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Final connecting rod is shown at the end.</p>
+    <div id="setup2" class="video-section">
+        <h3>Simulation Setup – Part 2</h3>
+        <video width="700" controls>
+            <source src="SimulationSetup_2.mp4" type="video/mp4">
+        </video>
+        <p><strong>Description:</strong> Continuation of the forging process under controlled parameters. The video shows the transition from the intermediate preform to the final semi-finished connecting rod.</p>
+    </div>
+
+    <div id="strain2" class="video-section">
+        <h3>Rod Strain – Part 2</h3>
+        <video width="700" controls>
+            <source src="RodStrain_2.mp4" type="video/mp4">
+        </video>
+        <p><strong>Description:</strong> Final strain analysis showing the finished connecting rod. The strain becomes more uniform, indicating that the grain refinement is complete and the mechanical properties are optimized.</p>
+    </div>
+
+    <script>
+        function showSimulation(id) {
+            // Hide all video sections
+            var sections = document.getElementsByClassName('video-section');
+            for (var i = 0; i < sections.length; i++) {
+                sections[i].style.display = 'none';
+                // Also pause the videos when hiding to avoid overlapping audio
+                var video = sections[i].querySelector('video');
+                if (video) video.pause();
+            }
+            // Show the selected section
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
 
 </body>
 </html>
