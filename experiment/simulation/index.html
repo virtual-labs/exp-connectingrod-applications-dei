@@ -2,65 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Simulation Videos - Connecting Rod</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connecting Rod Simulation Lab</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <h2>Connecting Rod Simulation Lab</h2>
-    <hr>
-
-    <div class="button-container">
-        <button class="play-btn" onclick="showSimulation('setup1')">▶ Play: Setup Part 1</button>
-        <button class="play-btn" onclick="showSimulation('strain1')">▶ Play: Strain Part 1</button>
-        <button class="play-btn" onclick="showSimulation('setup2')">▶ Play: Setup Part 2</button>
-        <button class="play-btn" onclick="showSimulation('strain2')">▶ Play: Strain Part 2</button>
+    <div class="header-container">
+        <h2>Connecting Rod Simulation Lab</h2>
+        <div class="underline"></div>
     </div>
 
-    <div id="setup1" class="video-section">
-        <h3>Simulation Setup – Part 1</h3>
-        <video width="700" controls>
-            <source src="SimulationSetup_1.mp4" type="video/mp4">
-        </video>
-        <p><strong>Description:</strong> Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The material of the billet is manganese alloy steel and maintaining temperature of billet to 1250°C. Hydraulic press is used to deform the billet into a semi-finished shape.</p>
+    <div class="vertical-nav">
+        <div class="nav-item">
+            <p class="cta-text">Click to view the initial forging setup</p>
+            <button class="play-btn" onclick="showSimulation('setup1')">▶ Play: Setup Part 1</button>
+        </div>
+
+        <div class="nav-item">
+            <p class="cta-text">Analyze the initial material deformation</p>
+            <button class="play-btn" onclick="showSimulation('strain1')">▶ Play: Strain Part 1</button>
+        </div>
+
+        <div class="nav-item">
+            <p class="cta-text">Observe advanced material flow</p>
+            <button class="play-btn" onclick="showSimulation('setup2')">▶ Play: Setup Part 2</button>
+        </div>
+
+        <div class="nav-item">
+            <p class="cta-text">Study the final grain refinement and strain</p>
+            <button class="play-btn" onclick="showSimulation('strain2')">▶ Play: Strain Part 2</button>
+        </div>
     </div>
 
-    <div id="strain1" class="video-section">
-        <h3>Rod Strain – Part 1</h3>
-        <video width="700" controls>
-            <source src="RodStrain_1.mp4" type="video/mp4">
-        </video>
-        <p><strong>Description:</strong> This simulation displays the variation of equivalent strain during the initial forming phase. High deforming force and temperature cause the material to flow plastically into the die impressions.</p>
-    </div>
+    <div class="content-container">
+        <div id="setup1" class="video-section">
+            <h3>Simulation Setup – Part 1</h3>
+            <video width="750" controls>
+                <source src="SimulationSetup_1.mp4" type="video/mp4">
+            </video>
+            <div class="description-box">
+                <p><strong>Description:</strong> The process involves billet compression using a closed impression die. The billet is made of manganese alloy steel and maintained at 1250°C. A hydraulic press applies high force to deform the material into the die impressions.</p>
+            </div>
+        </div>
 
-    <div id="setup2" class="video-section">
-        <h3>Simulation Setup – Part 2</h3>
-        <video width="700" controls>
-            <source src="SimulationSetup_2.mp4" type="video/mp4">
-        </video>
-        <p><strong>Description:</strong> Continuation of the forging process under controlled parameters. The video shows the transition from the intermediate preform to the final semi-finished connecting rod.</p>
-    </div>
+        <div id="strain1" class="video-section">
+            <h3>Rod Strain – Part 1</h3>
+            <video width="750" controls>
+                <source src="RodStrain_1.mp4" type="video/mp4">
+            </video>
+            <div class="description-box">
+                <p><strong>Description:</strong> This simulation displays the equivalent strain variation. High temperatures and deforming forces cause the material to flow plastically into the die cavities.</p>
+            </div>
+        </div>
 
-    <div id="strain2" class="video-section">
-        <h3>Rod Strain – Part 2</h3>
-        <video width="700" controls>
-            <source src="RodStrain_2.mp4" type="video/mp4">
-        </video>
-        <p><strong>Description:</strong> Final strain analysis showing the finished connecting rod. The strain becomes more uniform, indicating that the grain refinement is complete and the mechanical properties are optimized.</p>
+        <div id="setup2" class="video-section">
+            <h3>Simulation Setup – Part 2</h3>
+            <video width="750" controls>
+                <source src="SimulationSetup_2.mp4" type="video/mp4">
+            </video>
+            <div class="description-box">
+                <p><strong>Description:</strong> Advanced forging stage maintaining a constant 1250°C. The material fills the impressions to form the semi-finished connecting rod.</p>
+            </div>
+        </div>
+
+        <div id="strain2" class="video-section">
+            <h3>Rod Strain – Part 2</h3>
+            <video width="750" controls>
+                <source src="RodStrain_2.mp4" type="video/mp4">
+            </video>
+            <div class="description-box">
+                <p><strong>Description:</strong> Final strain distribution ensures the required strength and fatigue resistance after machining.</p>
+            </div>
+        </div>
     </div>
 
     <script>
         function showSimulation(id) {
-            // Hide all video sections
             var sections = document.getElementsByClassName('video-section');
             for (var i = 0; i < sections.length; i++) {
                 sections[i].style.display = 'none';
-                // Also pause the videos when hiding to avoid overlapping audio
                 var video = sections[i].querySelector('video');
                 if (video) video.pause();
             }
-            // Show the selected section
             document.getElementById(id).style.display = 'block';
+            // Scroll smoothly to the video content
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
         }
     </script>
 
