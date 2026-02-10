@@ -16,60 +16,68 @@
     <div class="vertical-nav">
         <div class="nav-item">
             <p class="cta-text">Watch the initial setup and die impressions for Manganese Alloy Steel</p>
-            <button class="play-btn" onclick="showSimulation('setup-preform')">▶ Play: Setup & Preform</button>
+            <button class="play-btn" onclick="showSimulation('sim-setup-1')">▶ Play: Simulation Setup 1</button>
         </div>
         <div class="nav-item">
             <p class="cta-text">Analyze plastic deformation and equivalent strain variation</p>
-            <button class="play-btn" onclick="showSimulation('strain-analysis')">▶ Play: Strain Analysis</button>
+            <button class="play-btn" onclick="showSimulation('sim-setup-2')">▶ Play: Simulation Setup 2</button>
         </div>
         <div class="nav-item">
             <p class="cta-text">Observe hydraulic press action and semi-finished product formation</p>
-            <button class="play-btn" onclick="showSimulation('forging-process')">▶ Play: Forging Process</button>
+            <button class="play-btn" onclick="showSimulation('rod-strain-1')">▶ Play: Rod Strain 1</button>
         </div>
         <div class="nav-item">
             <p class="cta-text">Study the final billet deformation and heat treatment results</p>
-            <button class="play-btn" onclick="showSimulation('final-shape')">▶ Play: Final Shape Analysis</button>
+            <button class="play-btn" onclick="showSimulation('rod-strain-2')">▶ Play: Rod Strain 2</button>
         </div>
     </div>
 
-    <div id="setup-preform" class="video-overlay">
+    <div id="sim-setup-1" class="video-overlay">
         <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('setup-preform')">&times;</button>
-            <h3>Connecting Rod: Setup & Preform</h3>
-            <video controls><source src="Connecting_Rod_1.mp4" type="video/mp4"></video>
+            <button class="close-btn" onclick="hideSimulation('sim-setup-1')">&times;</button>
+            <h3>Simulation Setup 1</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/79346209d84983b4582e5bc20dad737ebfd83bc2/experiment/simulation/SimulationSetup_1.mp4" type="video/mp4">
+            </video>
             <div class="description-box">
                 <p>Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. Right hand side of video shows initial, pre formed and final billet and lower half shows the dies. The material of the billet is manganese alloy steel and maintaining temperature of billet to 1250oC the forming of connecting rod take place. The variation of equivalent strain are shown over here at right hand side of video. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Preform connecting rod is shown at the end.</p>
             </div>
         </div>
     </div>
 
-    <div id="strain-analysis" class="video-overlay">
+    <div id="sim-setup-2" class="video-overlay">
         <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('strain-analysis')">&times;</button>
-            <h3>Connecting Rod: Strain Analysis</h3>
-            <video controls><source src="Connecting_Rod_2.mp4" type="video/mp4"></video>
+            <button class="close-btn" onclick="hideSimulation('sim-setup-2')">&times;</button>
+            <h3>Simulation Setup 2</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/79346209d84983b4582e5bc20dad737ebfd83bc2/experiment/simulation/SimulationSetup_2.mp4" type="video/mp4">
+            </video>
             <div class="description-box">
                 <p>Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. The material of the billet is manganese alloy steel and maintaining temperature of billet to 1250oC the forming of connecting rod take place. The variation of equivalent strain are shown over here at right hand side of video. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Preform connecting rod is shown at the end.</p>
             </div>
         </div>
     </div>
 
-    <div id="forging-process" class="video-overlay">
+    <div id="rod-strain-1" class="video-overlay">
         <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('forging-process')">&times;</button>
-            <h3>Connecting Rod: Forging Process</h3>
-            <video controls><source src="Connecting_Rod_3.mp4" type="video/mp4"></video>
+            <button class="close-btn" onclick="hideSimulation('rod-strain-1')">&times;</button>
+            <h3>Rod Strain 1</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/79346209d84983b4582e5bc20dad737ebfd83bc2/experiment/simulation/RodStrain_1.mp4" type="video/mp4">
+            </video>
             <div class="description-box">
                 <p>Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. Right hand side of video shows initial, pre formed and final billet and lower half shows the dies. Considering various parameters and maintaining temperature of billet to 1250oC the forming of connecting rod take place. The material of the billet is manganese alloy steel. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Final connecting rod is shown at the end.</p>
             </div>
         </div>
     </div>
 
-    <div id="final-shape" class="video-overlay">
+    <div id="rod-strain-2" class="video-overlay">
         <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('final-shape')">&times;</button>
-            <h3>Connecting Rod: Final Shape Analysis</h3>
-            <video controls><source src="Connecting_Rod_4.mp4" type="video/mp4"></video>
+            <button class="close-btn" onclick="hideSimulation('rod-strain-2')">&times;</button>
+            <h3>Rod Strain 2</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/79346209d84983b4582e5bc20dad737ebfd83bc2/experiment/simulation/RodStrain_2.mp4" type="video/mp4">
+            </video>
             <div class="description-box">
                 <p>Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. Considering various parameters and maintaining temperature of billet to 1250oC the forming of connecting rod take place. The variation of equivalent strain are shown over here at right hand side of video. The material of the billet is manganese alloy steel. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Final connecting rod is shown at the end.</p>
             </div>
