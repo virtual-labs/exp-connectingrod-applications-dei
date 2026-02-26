@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. They are cast or forged to form:",
+      "answers": {
+        "a": "H near the small end",
+        "b": "H near the big end",
+        "c": "I near the small end",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Connecting rods are generally forged to form an H-section near the small end for strength.",
+        "b": "H-section is not specifically formed near the big end.",
+        "c": "I-section is not formed near the small end.",
+        "d": "A correct structural form is mentioned."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "2. Which shape provides greater strength to resist stresses than a solid rod of the same mass?",
+      "answers": {
+        "a": "I near the small end and an H near the big end",
+        "b": "H near the small end and an I near the big end",
+        "c": "None of these",
+        "d": "All of these"
+      },
+      "explanations": {
+        "a": "This arrangement is not commonly used.",
+        "b": "This combination provides high strength and stiffness with reduced weight.",
+        "c": "A correct option exists.",
+        "d": "Only one option correctly describes the design."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "3. Failure of a connecting rod is commonly called:",
+      "answers": {
+        "a": "Flowing of rod",
+        "b": "Both (a) and (b)",
+        "c": "None of these",
+        "d": "Throwing a rod"
+      },
+      "explanations": {
+        "a": "Flowing of rod is not a recognized term.",
+        "b": "Only one term is correct.",
+        "c": "A correct option exists.",
+        "d": "Failure of a connecting rod is commonly referred to as throwing a rod."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. The grain pattern of the body or neck of the connecting rod is in:",
+      "answers": {
+        "a": "Horizontal direction",
+        "b": "Inclined at 45°",
+        "c": "The vertical direction",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Horizontal grain flow is used for the cap.",
+        "b": "Inclined grain flow is not used.",
+        "c": "The body or neck of the connecting rod is manufactured with vertical grain flow for strength.",
+        "d": "A correct option exists."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "5. The grain pattern of the connecting rod cap is made in:",
+      "answers": {
+        "a": "The vertical direction",
+        "b": "Inclined at 45°",
+        "c": "None of these",
+        "d": "Horizontal direction"
+      },
+      "explanations": {
+        "a": "Vertical grain flow is used in the rod body, not the cap.",
+        "b": "Inclined grain flow is not used.",
+        "c": "A correct option exists.",
+        "d": "The cap is manufactured with horizontal grain flow to maintain roundness under high stress."
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    }
+  ]
+}
