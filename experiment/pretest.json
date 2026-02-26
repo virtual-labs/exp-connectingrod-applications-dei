@@ -2,37 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Piston pin is also known as:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Crank pin",
+        "b": "Gudgeon pin",
+        "c": "Fastening pin",
+        "d": "Connecting pin"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. The small end of the connecting rod attaches to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Crank pin",
+        "b": "Fastening pin",
+        "c": "The piston pin, gudgeon pin or wrist pin",
+        "d": "Connecting pin"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The big end of the connecting rod connects to the:",
+      "answers": {
+        "a": "Floating wrist pin",
+        "b": "Connecting rod bolts",
+        "c": "None of these",
+        "d": "Bearing journal on the crank throw"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Connecting rods for internal combustion engines need to be:",
+      "answers": {
+        "a": "Heavy weight",
+        "b": "Medium weight",
+        "c": "Light weight",
+        "d": "None of these"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Popular materials used in the construction of connecting rods are:",
+      "answers": {
+        "a": "Titanium",
+        "b": "Aluminium",
+        "c": "Both (a) and (b)",
+        "d": "None of the above"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
